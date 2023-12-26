@@ -1,0 +1,51 @@
+.tasks_todo {
+    margin-top: 20px;
+  }
+  
+
+  .tasks_todo li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Style for the task text */
+  /* .tasks_todo li span {
+    background-color: #eaeaea;
+    padding: 8px;
+    border-radius: 4px;
+    margin-right: 8px;
+    flex-grow: 1;
+  } */
+  
+  /* Style for the buttons container */
+  .tasks_todo li .button_btn {
+    display: flex;
+  }
+  
+  /* Style for the buttons */
+  .tasks_todo li .button_btn button {
+    margin-left: 8px;
+    padding: 8px;
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+  }
+  
+  /* Style for the Delete button */
+  .tasks_todo li .button_btn button.delete {
+    background-color: #ff7b7b;
+    color: #fff;
+  }
+  
+  /* Style for the Validate button */
+  .tasks_todo li .button_btn button.validate {
+    background-color: #7bbfff;
+    color: #fff;
+  }
+  

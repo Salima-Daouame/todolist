@@ -1,0 +1,45 @@
+body, h1, p, div {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .note__pr {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .note__pr p {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px; 
+  }
+  
+  .my__input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 12px 18px;
+    border: 1px solid #b3a78c; 
+    border-radius: 30px;
+    background-color: #b3a78c; 
+    color: white;
+    cursor: pointer;
+  }
+  
+  
+  button:hover {
+    background-color: white;
+    color: #b3a78c;
+  }
+ 
