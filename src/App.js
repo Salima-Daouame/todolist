@@ -23,7 +23,7 @@ import Task from './Components/Task';
   function validateTask(index, newColor) {
     setTasks((prevTasks) =>
       prevTasks.map((task, i) =>
-         // if statment
+         // if else statment
         i === index ? { ...task, color: newColor } : task
       )
     );
